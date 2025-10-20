@@ -56,7 +56,7 @@ let shortFoodNames = friendFavorites.filter(food => food.length <= 6);
 // 9. Print both arrays and compare:
 // "There are more long-named foods." OR "There are more short-named foods."
 console.log("Long food names:", longFoodNames);
-console.log("Short fod names:", shortFoodNames);
+console.log("Short food names:", shortFoodNames);
 
 
 if (longFoodNames.length > shortFoodNames.length) {
